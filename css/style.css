@@ -1,0 +1,65 @@
+:root{
+    --corpo: #191919;
+}
+
+h1, h2, h3, p, span{
+    color: #c0c0c0
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: var(--corpo);
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+
+/*filme principal*/
+.descricao{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.dados-filme{
+    margin-left: 30px;
+}
+
+.obra-principal{
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/one-piece-capa.jpg) no-repeat;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.botao{
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .50);
+    padding: 10px 30px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s ease all;
+
+}
+
+i{
+    margin-right: 5px;
+}
+
+.botao:hover{
+    background: #ffffff;
+    color: #000000;
+}
